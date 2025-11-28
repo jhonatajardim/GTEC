@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTEC-Barretos</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="" href="./produtos.html">
+</head>
+
+<body>
+    <script src="https://kit.fontawesome.com/52d98fe718.js" crossorigin="anonymous"></script>
+    <header>
+        <section id="header" class="container">
+            <a href="#">
+                <div>
+                    <img id="image" src="./img/Logo.png" width="230" height="70" alt="Logo" title="Logo Gtec">
+                </div>
+            </a>
+            <nav>
+                <a href="">Inicio</a>
+                <a href="#QuemSomos">Quem Somos?</a>
+                <a href="#grid-container">Produtos</a>
+                <a href="#FaleConosco">Fale Conosco</a>
+            </nav>
+        </section>
+    </header>
+    <main class="corpo">
+        <div>
+        <div class="banner">
+            <div class="slider">
+                    <img src="./img/banner1.jpeg" alt="Imagem 1">
+                    <img src="./img/banner1.jpeg" alt="Imagem 2">
+                    <img src="./img/banner1.jpeg" alt="Imagem 3">
+                </div>
+                <button  id="id1" class="prev button-carro">◀</button>
+                <button  id="id2" class="next button-carro">▶</button>
+            </div>
+            <script src="script.js"></script>
+        </div>
+
+
+        <div class="grid-container">
+            <div class="grid-item">    
+                <h2 style="margin-bottom: 10px;">Centrais PABX</h2>
+                <img src="./img/pabx1.png" width="250" height="250" alt="Central PABX"><br>
+                <a href="produtos.html" target="_self">
+                    <button class="meu-botao"><strong>Saiba Mais</strong></button>
+                </a>
+
+            </div>
+            <div class="grid-item">
+                <h2 style="margin-bottom: 10px;">Centrais Alarme</h2>
+                <img src="./img/alarme1.png" width="250" height="250" alt=""><br>
+                <a href="alarme.html" target="_self">
+                <button class="meu-botao"><strong>Saiba Mais</strong></button>
+                </a>
+            </div>
+            <div class="grid-item">
+                <h2 style="margin-bottom: 10px;">Equipamentos CFTV</h2>
+                <img src="./img/cameras1.png" width="250" height="250" alt=""><br>
+                <a href="cameras.html" target="_self">
+                    <button class="meu-botao"><strong>Saiba Mais</strong></button>
+                </a>
+            </div>
+            <div class="grid-item bottom-grid">
+                <h2 style="margin-bottom: 10px;">Porteiros Eletrônicos</h2>
+                <img src="./img/portaria1.png" width="250" height="250" alt=""><br>
+                <a href="porteiro.html" target="_self">
+                    <button class="meu-botao"><strong>Saiba Mais</strong></button>
+                </a>
+            </div>
+            <div class="grid-item bottom-grid">
+                <h2 style="margin-bottom: 10px">Motores de Portões</h2>
+                <img src="./img/portoes1.png" width="250" height="250" alt=""><br>
+                <a href="portao.html" target="_self">
+                    <button class="meu-botao"><strong>Saiba Mais</strong></button>
+                </a>
+            </div>
+            <div class="grid-item bottom-grid">
+                <h2 style="margin-bottom: 10px">Controle de Acesso</h2>
+                <img src="./img/controle acesso1.png" width="250" height="250" alt=""><br>
+                <a href="controle.html" target="_self">
+                    <button class="meu-botao"><strong>Saiba Mais</strong></button>
+                </a>
+            </div>
+        </div>
+
+        <br><br>
+
+        <div id="QuemSomos" class="quem">
+            <h3>Quem Somos</h3>
+            <P>Na Gtec, somos apaixonados por proporcionar segurança residencial de alta qualidade para você e sua família. Fundada com o compromisso de proteger o que mais importa na vida, nossa empresa se tornou uma referência confiável no setor de segurança em residências.
+                <br>
+                Nossa jornada começou com a missão de tornar os lares mais seguros, e desde então, temos dedicado nossos esforços incansáveis para alcançar esse objetivo. Hoje, orgulhamo-nos de oferecer soluções de segurança inovadoras e personalizadas, adaptadas às necessidades específicas de cada cliente.
+                <br>
+                O que nos diferencia na Gtec é a combinação de tecnologia de ponta com um compromisso inabalável com o atendimento ao cliente. Nossa equipe de especialistas em segurança está constantemente se atualizando e aprendendo sobre as mais recentes tendências e tecnologias, garantindo que nossos clientes tenham acesso às melhores soluções de segurança disponíveis no mercado.
+                <br>
+                Acreditamos que a segurança é um direito fundamental de todos, e é por isso que tornamos nossos serviços acessíveis e eficazes, sem comprometer a qualidade. Sabemos que cada lar é único, e é por isso que personalizamos nossas soluções para atender às necessidades específicas de cada cliente.
+                <br>
+                Na Gtec, estamos comprometidos em construir relacionamentos de confiança com nossos clientes. Sua segurança e tranquilidade são nossa prioridade número um. Quando você escolhe a Gtec, você escolhe um parceiro que se preocupa com sua segurança tanto quanto você.</P>
+        </div>
+
+        <br><br>
+
+        <div class="fale">
+            <div id="FaleConosco">
+                <h2>Fale Conosco</h2>
+                <form action="processar_formulario.py" method="post">
+                    Nome: <input type="text" name="nome"><br>
+                    E-mail: <input type="email" name="email"><br>
+                    Mensagem: <textarea name="mensagem" rows="4"></textarea><br>
+                    <input type="submit" class="btn" value="Enviar">
+
+                </form>
+                
+            </div>
+            <div class="info">
+                <h1>Informações de Contato</h1>
+                <nav>
+                    <a href="https://www.facebook.com/gtecbarretos"><i class="fa-brands fa-square-facebook"></i>facebook</a>
+                    <a href="https://www.instagram.com/gtecbarretos/"><i class="fa-brands fa-square-instagram"></i>Instagram</a>
+                    <a href="https://api.whatsapp.com/send?phone=551733250070"><i class="fa-brands fa-square-whatsapp"></i>WhatsApp</a>
+                </nav>
+            </div>
+        </div>
+
+        <br>
+        
+    </main>
+
+    <footer>
+        <div class="rodape1">
+            &copy; 2023 GTEC-Barretos. <br>Todos os direitos reservados. <br>
+            <a href="#">Política de Privacidade</a> <br>
+            <a href="#">Termos de Uso</a> <br>
+        </div>
+        <div class="rodape2" style="align-items: center">
+            <p>Endereço: R. Francisco de Assis Martins <br> Nº 335 - Parque Res. Minerva, Barretos <br>| Telefone: (17)
+                3325-0070 | <br>Email: gtec@gtec.emp.br</p>
+        </div>
+        <div style="align-items: right">
+            <p>Desenvolvido por: <br>Vinicius<br>Jhonata<br> Joyce<br> Julia<br> Mario<br> Eduardo</p>
+        </div>
+    </footer>
+</body>
+
+</html>

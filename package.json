@@ -1,0 +1,23 @@
+{
+  "name": "gtec-barretos",
+  "version": "2.0.0",
+  "description": "Website institucional e catálogo de soluções em segurança eletrônica e telecomunicações da GTEC Barretos.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "gtec",
+    "barretos",
+    "segurança",
+    "cftv",
+    "alarme",
+    "pabx",
+    "interfonia",
+    "controle-de-acesso"
+  ],
+  "author": "Vinicius, Jhonata, Joyce, Julia, Mario, Eduardo",
+  "license": "MIT"
+}
+

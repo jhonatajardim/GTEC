@@ -1,48 +1,159 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centrais PABX - GTEC Barretos</title>
+    <meta name="description" content="Centrais PABX analógicas, digitais e IP para empresas e condomínios em Barretos. Telefonia eficiente e ramais inteligentes com a GTEC.">
+    
+    <!-- Favicon / Ícone da Aba do Navegador -->
+    <link rel="icon" type="image/png" href="./img/logo4.png">
+    <link rel="shortcut icon" type="image/png" href="./img/logo4.png">
+    <link rel="apple-touch-icon" href="./img/logo4.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <link rel="stylesheet" href="./css/style.css">
-    <title>GTEC-Barretos</title>
 </head>
-<body>
 
+<body>
+    <!-- Cabeçalho -->
     <header>
-        <section id="header" class="container">
-            <a href="#">
-                <div>
-                    <img id="image" src="./img/Logo.png" width="230" height="70" alt="Logo" title="Logo Gtec">
-                </div>
+        <div class="container header-inner">
+            <a href="index.html" class="logo-container">
+                <img id="image" src="./img/Logo.png" alt="Logotipo GTEC">
             </a>
-            <nav>
-                <a href="index.html">Inicio</a>
-                <a href="#QuemSomos">Quem Somos?</a>
-                <a href="#grid-container">Trabalhos</a>
-                <a href="#FaleConosco">Fale Conosco</a>
+
+            <nav class="main-nav">
+                <a href="index.html">Início</a>
+                <a href="index.html#produtos" class="active">Produtos</a>
+                <a href="index.html#QuemSomos">Quem Somos</a>
+                <a href="index.html#FaleConosco">Fale Conosco</a>
             </nav>
-        </section>
+
+            <div class="header-actions">
+                <a href="https://api.whatsapp.com/send?phone=551733250070&text=Olá!%20Gostaria%20de%20um%20orçamento%20para%20Centrais%20PABX." target="_blank" class="btn-header-quote">
+                    <i class="fa-brands fa-whatsapp"></i> Orçamento Rápido
+                </a>
+                <button class="mobile-menu-toggle" aria-label="Abrir Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
     </header>
 
-    <main style="background-color: #2090CE;">
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    </main>
+    <!-- Breadcrumb -->
+    <div class="breadcrumb-bar">
+        <div class="container">
+            <div class="breadcrumb-list">
+                <a href="index.html">Início</a>
+                <span class="separator"><i class="fa-solid fa-chevron-right"></i></span>
+                <a href="index.html#produtos">Produtos</a>
+                <span class="separator"><i class="fa-solid fa-chevron-right"></i></span>
+                <span>Centrais PABX</span>
+            </div>
+        </div>
+    </div>
 
+    <!-- Product Hero -->
+    <section class="product-hero">
+        <div class="container">
+            <div class="product-hero-grid">
+                <div class="product-hero-content">
+                    <span class="hero-badge">Telefonia Corporativa & Condominial</span>
+                    <h1>Centrais Telefônicas PABX</h1>
+                    <p>
+                        Modernize a comunicação da sua empresa com ramais inteligentes, gravação de chamadas, atendimento automático por URA e integração com linhas analógicas, digitais e VoIP.
+                    </p>
+                    <div class="hero-cta-group">
+                        <a href="https://api.whatsapp.com/send?phone=551733250070&text=Olá!%20Gostaria%20de%20um%20orçamento%20para%20Centrais%20PABX." target="_blank" class="btn btn-primary">
+                            <i class="fa-brands fa-whatsapp"></i> Solicitar Orçamento via WhatsApp
+                        </a>
+                        <a href="index.html#FaleConosco" class="btn btn-outline">
+                            <i class="fa-solid fa-envelope"></i> Enviar Mensagem
+                        </a>
+                    </div>
+                </div>
 
+                <div class="product-hero-image-box">
+                    <img src="./img/pabx1.png" alt="Central Telefônica PABX GTEC">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detailed Features -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Recursos & Benefícios</span>
+                <h2>Por que Investir em uma Central PABX?</h2>
+                <p>Otimize o atendimento a clientes, reduza custos telefônicos e organize a comunicação interna com facilidade.</p>
+            </div>
+
+            <div class="features-detailed-grid">
+                <div class="feature-box">
+                    <div class="feature-box-icon"><i class="fa-solid fa-phone-volume"></i></div>
+                    <h4>Ramais Ilimitados & Híbridos</h4>
+                    <p>Suporte para ramais convencionais e IP, permitindo conectar filiais e colaboradores em home office na mesma rede.</p>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-box-icon"><i class="fa-solid fa-robot"></i></div>
+                    <h4>Atendimento Digital (URA)</h4>
+                    <p>Mensagens de voz personalizadas para direcionar chamadas aos setores corretos sem necessidade de operador constante.</p>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-box-icon"><i class="fa-solid fa-chart-line"></i></div>
+                    <h4>Redução de Custos</h4>
+                    <p>Roteamento inteligente de chamadas pela operadora mais econômica e controle rigoroso de gastos por ramal.</p>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-box-icon"><i class="fa-solid fa-microphone-lines"></i></div>
+                    <h4>Gravação de Chamadas</h4>
+                    <p>Armazenamento seguro de conversas para conformidade jurídica, controle de qualidade e treinamento de equipes.</p>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-box-icon"><i class="fa-solid fa-building"></i></div>
+                    <h4>Ideal para Condomínios</h4>
+                    <p>Interfonia rápida e gratuita entre portaria e apartamentos com total privacidade e rapidez.</p>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-box-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                    <h4>Instalação & Manutenção GTEC</h4>
+                    <p>Configuração completa e suporte técnico local em Barretos, com assistência preventiva e corretiva.</p>
+                </div>
+            </div>
+
+            <!-- Banner CTA -->
+            <div class="product-cta-banner">
+                <h3>Pronto para Transformar a Telefonia da sua Empresa?</h3>
+                <p>Solicite uma visita técnica da equipe GTEC para dimensionarmos o sistema ideal para seu negócio ou condomínio.</p>
+                <a href="https://api.whatsapp.com/send?phone=551733250070&text=Olá!%20Quero%20uma%20visita%20técnica%20para%20Central%20PABX." target="_blank" class="btn btn-primary">
+                    <i class="fa-brands fa-whatsapp"></i> Falar com Especialista Agora
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
     <footer>
-        <div class="rodape1">
-            &copy; 2023 GTEC-Barretos. <br>Todos os direitos reservados. <br>
-            <a href="#">Política de Privacidade</a> <br>
-            <a href="#">Termos de Uso</a> <br>
-        </div>
-        <div class="rodape2" style="align-items: center">
-            <p>Endereço: R. Francisco de Assis Martins <br> Nº 335 - Parque Res. Minerva, Barretos <br>| Telefone: (17)
-                3325-0070 | <br>Email: gtec@gtec.emp.br</p>
-        </div>
-        <div style="align-items: right">
-            <p>Desenvolvido por: <br>Vinicius<br>Jhonata<br> Joyce<br> Julia<br> Mario<br> Eduardo</p>
+        <div class="container">
+            <div class="footer-bottom-bar" style="border: none; padding-bottom: 30px;">
+                <div>&copy; <span id="current-year">2026</span> GTEC-Barretos. Todos os direitos reservados.</div>
+                <div><a href="index.html">Página Inicial</a> | <a href="index.html#FaleConosco">Contato</a></div>
+                <div class="team-credits">Desenvolvido por: <span>Vinicius, Jhonata, Joyce, Julia, Mario e Eduardo</span></div>
+            </div>
         </div>
     </footer>
-    
+
+    <script src="./script.js"></script>
 </body>
+
 </html>

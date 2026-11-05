@@ -1,48 +1,159 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipamentos CFTV - GTEC Barretos</title>
+    <meta name="description" content="Câmeras de segurança e CFTV Full HD e 4K em Barretos. Acesso remoto ao vivo, visão noturna e gravação contínua com a GTEC.">
+    
+    <!-- Favicon / Ícone da Aba do Navegador -->
+    <link rel="icon" type="image/png" href="./img/logo4.png">
+    <link rel="shortcut icon" type="image/png" href="./img/logo4.png">
+    <link rel="apple-touch-icon" href="./img/logo4.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <link rel="stylesheet" href="./css/style.css">
-    <title>GTEC-Barretos</title>
 </head>
-<body>
 
+<body>
+    <!-- Cabeçalho -->
     <header>
-        <section id="header" class="container">
-            <a href="#">
-                <div>
-                    <img id="image" src="./img/Logo.png" width="230" height="70" alt="Logo" title="Logo Gtec">
-                </div>
+        <div class="container header-inner">
+            <a href="index.html" class="logo-container">
+                <img id="image" src="./img/Logo.png" alt="Logotipo GTEC">
             </a>
-            <nav>
-                <a href="index.html">Inicio</a>
-                <a href="#QuemSomos">Quem Somos?</a>
-                <a href="#grid-container">Trabalhos</a>
-                <a href="#FaleConosco">Fale Conosco</a>
+
+            <nav class="main-nav">
+                <a href="index.html">Início</a>
+                <a href="index.html#produtos" class="active">Produtos</a>
+                <a href="index.html#QuemSomos">Quem Somos</a>
+                <a href="index.html#FaleConosco">Fale Conosco</a>
             </nav>
-        </section>
+
+            <div class="header-actions">
+                <a href="https://api.whatsapp.com/send?phone=551733250070&text=Olá!%20Gostaria%20de%20um%20orçamento%20para%20Equipamentos%20CFTV." target="_blank" class="btn-header-quote">
+                    <i class="fa-brands fa-whatsapp"></i> Orçamento Rápido
+                </a>
+                <button class="mobile-menu-toggle" aria-label="Abrir Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
     </header>
 
-    <main style="background-color: #2090CE;">
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    </main>
+    <!-- Breadcrumb -->
+    <div class="breadcrumb-bar">
+        <div class="container">
+            <div class="breadcrumb-list">
+                <a href="index.html">Início</a>
+                <span class="separator"><i class="fa-solid fa-chevron-right"></i></span>
+                <a href="index.html#produtos">Produtos</a>
+                <span class="separator"><i class="fa-solid fa-chevron-right"></i></span>
+                <span>Equipamentos CFTV</span>
+            </div>
+        </div>
+    </div>
 
+    <!-- Product Hero -->
+    <section class="product-hero">
+        <div class="container">
+            <div class="product-hero-grid">
+                <div class="product-hero-content">
+                    <span class="hero-badge">Monitoramento Visual 24 Horas</span>
+                    <h1>Sistemas de CFTV & Câmeras de Segurança</h1>
+                    <p>
+                        Acompanhe tudo o que acontece no seu patrimônio em tempo real pelo celular. Imagens nítidas em Full HD e 4K, visão noturna avançada e gravação contínua com equipamentos das melhores marcas mundiais.
+                    </p>
+                    <div class="hero-cta-group">
+                        <a href="https://api.whatsapp.com/send?phone=551733250070&text=Olá!%20Gostaria%20de%20um%20orçamento%20para%20Equipamentos%20CFTV." target="_blank" class="btn btn-primary">
+                            <i class="fa-brands fa-whatsapp"></i> Solicitar Orçamento via WhatsApp
+                        </a>
+                        <a href="index.html#FaleConosco" class="btn btn-outline">
+                            <i class="fa-solid fa-envelope"></i> Enviar Mensagem
+                        </a>
+                    </div>
+                </div>
 
+                <div class="product-hero-image-box">
+                    <img src="./img/cameras1.png" alt="Câmeras de Segurança CFTV GTEC">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detailed Features -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Qualidade de Imagem</span>
+                <h2>Monitoramento Inteligente e de Alta Definição</h2>
+                <p>Nossas câmeras entregam nitidez absoluta para identificação de pessoas, rostos e placas de veículos.</p>
+            </div>
+
+            <div class="features-detailed-grid">
+                <div class="feature-box">
+                    <div class="feature-box-icon"><i class="fa-solid fa-video"></i></div>
+                    <h4>Resolução Full HD & 4K</h4>
+                    <p>Lentes de alta precisão com grande riqueza de detalhes para total clareza em gravações diurnas e noturnas.</p>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-box-icon"><i class="fa-solid fa-moon"></i></div>
+                    <h4>Visão Noturna & Colorida</h4>
+                    <p>Tecnologia com leds infravermelhos e sensores para visualização colorida mesmo na escuridão total.</p>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-box-icon"><i class="fa-solid fa-mobile"></i></div>
+                    <h4>Acesso Remoto no Celular</h4>
+                    <p>Aplicativo intuitivo para Android e iOS. Assista ao vivo, reproduza gravações e receba notificações onde estiver.</p>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-box-icon"><i class="fa-solid fa-cloud-arrow-up"></i></div>
+                    <h4>Gravação em DVR, NVR & Nuvem</h4>
+                    <p>Armazenamento contínuo em discos rígidos especiais para segurança 24/7 com proteção contra perda de dados.</p>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-box-icon"><i class="fa-solid fa-cloud-sun-rain"></i></div>
+                    <h4>Resistência Climática (IP66/67)</h4>
+                    <p>Equipamentos blindados contra chuva, sol forte, poeira e maresia para instalação externa sem desgastes.</p>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-box-icon"><i class="fa-solid fa-person-walking"></i></div>
+                    <h4>Detecção de Humanos e Veículos</h4>
+                    <p>Inteligência artificial integrada que alerta somente quando detecta movimento humano real, sem alarmes falsos.</p>
+                </div>
+            </div>
+
+            <!-- Banner CTA -->
+            <div class="product-cta-banner">
+                <h3>Tenha os Olhos da sua Segurança na Palma da Mão</h3>
+                <p>Projetamos a disposição das câmeras para eliminar qualquer ponto cego da sua propriedade.</p>
+                <a href="https://api.whatsapp.com/send?phone=551733250070&text=Olá!%20Quero%20um%20projeto%20de%20câmeras%20CFTV%20para%20meu%20imóvel." target="_blank" class="btn btn-primary">
+                    <i class="fa-brands fa-whatsapp"></i> Falar com Especialista em CFTV
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
     <footer>
-        <div class="rodape1">
-            &copy; 2023 GTEC-Barretos. <br>Todos os direitos reservados. <br>
-            <a href="#">Política de Privacidade</a> <br>
-            <a href="#">Termos de Uso</a> <br>
-        </div>
-        <div class="rodape2" style="align-items: center">
-            <p>Endereço: R. Francisco de Assis Martins <br> Nº 335 - Parque Res. Minerva, Barretos <br>| Telefone: (17)
-                3325-0070 | <br>Email: gtec@gtec.emp.br</p>
-        </div>
-        <div style="align-items: right">
-            <p>Desenvolvido por: <br>Vinicius<br>Jhonata<br> Joyce<br> Julia<br> Mario<br> Eduardo</p>
+        <div class="container">
+            <div class="footer-bottom-bar" style="border: none; padding-bottom: 30px;">
+                <div>&copy; <span id="current-year">2026</span> GTEC-Barretos. Todos os direitos reservados.</div>
+                <div><a href="index.html">Página Inicial</a> | <a href="index.html#FaleConosco">Contato</a></div>
+                <div class="team-credits">Desenvolvido por: <span>Vinicius, Jhonata, Joyce, Julia, Mario e Eduardo</span></div>
+            </div>
         </div>
     </footer>
-    
+
+    <script src="./script.js"></script>
 </body>
+
 </html>

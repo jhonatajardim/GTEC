@@ -1,48 +1,159 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Acesso - GTEC Barretos</title>
+    <meta name="description" content="Sistemas de controle de acesso, biometria, reconhecimento facial, catracas e fechaduras digitais em Barretos com a GTEC.">
+    
+    <!-- Favicon / Ícone da Aba do Navegador -->
+    <link rel="icon" type="image/png" href="./img/logo4.png">
+    <link rel="shortcut icon" type="image/png" href="./img/logo4.png">
+    <link rel="apple-touch-icon" href="./img/logo4.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <link rel="stylesheet" href="./css/style.css">
-    <title>GTEC-Barretos</title>
 </head>
-<body>
 
+<body>
+    <!-- Cabeçalho -->
     <header>
-        <section id="header" class="container">
-            <a href="#">
-                <div>
-                    <img id="image" src="./img/Logo.png" width="230" height="70" alt="Logo" title="Logo Gtec">
-                </div>
+        <div class="container header-inner">
+            <a href="index.html" class="logo-container">
+                <img id="image" src="./img/Logo.png" alt="Logotipo GTEC">
             </a>
-            <nav>
-                <a href="index.html">Inicio</a>
-                <a href="#QuemSomos">Quem Somos?</a>
-                <a href="#grid-container">Trabalhos</a>
-                <a href="#FaleConosco">Fale Conosco</a>
+
+            <nav class="main-nav">
+                <a href="index.html">Início</a>
+                <a href="index.html#produtos" class="active">Produtos</a>
+                <a href="index.html#QuemSomos">Quem Somos</a>
+                <a href="index.html#FaleConosco">Fale Conosco</a>
             </nav>
-        </section>
+
+            <div class="header-actions">
+                <a href="https://api.whatsapp.com/send?phone=551733250070&text=Olá!%20Gostaria%20de%20um%20orçamento%20para%20Controle%20de%20Acesso." target="_blank" class="btn-header-quote">
+                    <i class="fa-brands fa-whatsapp"></i> Orçamento Rápido
+                </a>
+                <button class="mobile-menu-toggle" aria-label="Abrir Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
     </header>
 
-    <main style="background-color: #2090CE;">
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    </main>
+    <!-- Breadcrumb -->
+    <div class="breadcrumb-bar">
+        <div class="container">
+            <div class="breadcrumb-list">
+                <a href="index.html">Início</a>
+                <span class="separator"><i class="fa-solid fa-chevron-right"></i></span>
+                <a href="index.html#produtos">Produtos</a>
+                <span class="separator"><i class="fa-solid fa-chevron-right"></i></span>
+                <span>Controle de Acesso</span>
+            </div>
+        </div>
+    </div>
 
+    <!-- Product Hero -->
+    <section class="product-hero">
+        <div class="container">
+            <div class="product-hero-grid">
+                <div class="product-hero-content">
+                    <span class="hero-badge">Gestão Inteligente de Portarias & Portas</span>
+                    <h1>Sistemas de Controle de Acesso</h1>
+                    <p>
+                        Controle com precisão quem entra e sai do seu imóvel ou empresa. Tecnologia com reconhecimento facial sem contato, biometria digital, tags RFID e fechaduras eletroímã para total proteção patrimonial.
+                    </p>
+                    <div class="hero-cta-group">
+                        <a href="https://api.whatsapp.com/send?phone=551733250070&text=Olá!%20Gostaria%20de%20um%20orçamento%20para%20Controle%20de%20Acesso." target="_blank" class="btn btn-primary">
+                            <i class="fa-brands fa-whatsapp"></i> Solicitar Orçamento via WhatsApp
+                        </a>
+                        <a href="index.html#FaleConosco" class="btn btn-outline">
+                            <i class="fa-solid fa-envelope"></i> Enviar Mensagem
+                        </a>
+                    </div>
+                </div>
 
+                <div class="product-hero-image-box">
+                    <img src="./img/controle-acesso.png" alt="Sistema de Controle de Acesso GTEC">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detailed Features -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Tecnologia & Gestão</span>
+                <h2>Segurança Rigorosa e Praticidade para Usuários</h2>
+                <p>Elimine o risco de chaves perdidas e saiba exatamente quem acessou cada área e em qual horário.</p>
+            </div>
+
+            <div class="features-detailed-grid">
+                <div class="feature-box">
+                    <div class="feature-box-icon"><i class="fa-solid fa-face-smile"></i></div>
+                    <h4>Reconhecimento Facial</h4>
+                    <p>Validação ultrarrápida em menos de 0,3s sem necessidade de toque, com tecnologia anti-fraude por foto ou vídeo.</p>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-box-icon"><i class="fa-solid fa-fingerprint"></i></div>
+                    <h4>Leitor Biométrico Digital</h4>
+                    <p>Identificação biométrica de alta precisão que impede empréstimos de senhas e acessos não autorizados.</p>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-box-icon"><i class="fa-solid fa-id-badge"></i></div>
+                    <h4>Tags & Cartões RFID</h4>
+                    <p>Chaveiros e cartões de aproximação duráveis para moradores, funcionários e visitantes cadastrados.</p>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-box-icon"><i class="fa-solid fa-door-closed"></i></div>
+                    <h4>Fechaduras Eletroímã & Digitais</h4>
+                    <p>Fechaduras magnéticas com força de retenção de 150kg a 300kg que garantem fechamento seguro de portas de vidro ou madeira.</p>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-box-icon"><i class="fa-solid fa-chart-column"></i></div>
+                    <h4>Relatórios de Acesso em Tempo Real</h4>
+                    <p>Software com histórico detalhado de entrada e saída por usuário, data, hora e departamento.</p>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-box-icon"><i class="fa-solid fa-door-open"></i></div>
+                    <h4>Integração com Catracas & Cancelas</h4>
+                    <p>Soluções completas para academias, condomínios, estacionamentos e portarias comerciais de alto fluxo.</p>
+                </div>
+            </div>
+
+            <!-- Banner CTA -->
+            <div class="product-cta-banner">
+                <h3>Eleve o Nível de Controle e Segurança do Seu Espaço</h3>
+                <p>Desenvolvemos projetos personalizados de acordo com o fluxo de pessoas e as particularidades da sua infraestrutura.</p>
+                <a href="https://api.whatsapp.com/send?phone=551733250070&text=Olá!%20Quero%20um%20projeto%20de%20Controle%20de%20Acesso." target="_blank" class="btn btn-primary">
+                    <i class="fa-brands fa-whatsapp"></i> Falar com Especialista
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
     <footer>
-        <div class="rodape1">
-            &copy; 2023 GTEC-Barretos. <br>Todos os direitos reservados. <br>
-            <a href="#">Política de Privacidade</a> <br>
-            <a href="#">Termos de Uso</a> <br>
-        </div>
-        <div class="rodape2" style="align-items: center">
-            <p>Endereço: R. Francisco de Assis Martins <br> Nº 335 - Parque Res. Minerva, Barretos <br>| Telefone: (17)
-                3325-0070 | <br>Email: gtec@gtec.emp.br</p>
-        </div>
-        <div style="align-items: right">
-            <p>Desenvolvido por: <br>Vinicius<br>Jhonata<br> Joyce<br> Julia<br> Mario<br> Eduardo</p>
+        <div class="container">
+            <div class="footer-bottom-bar" style="border: none; padding-bottom: 30px;">
+                <div>&copy; <span id="current-year">2026</span> GTEC-Barretos. Todos os direitos reservados.</div>
+                <div><a href="index.html">Página Inicial</a> | <a href="index.html#FaleConosco">Contato</a></div>
+                <div class="team-credits">Desenvolvido por: <span>Vinicius, Jhonata, Joyce, Julia, Mario e Eduardo</span></div>
+            </div>
         </div>
     </footer>
-    
+
+    <script src="./script.js"></script>
 </body>
+
 </html>

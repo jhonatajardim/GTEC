@@ -94,9 +94,9 @@ GTEC/
 │   │   ├── carrossel 1.jpg         # Slide 1: Visão Geral e Segurança Inteligente
 │   │   ├── carrossel 2.jpg         # Slide 2: Equipamentos CFTV Full HD & 4K
 │   │   ├── carrossel 3.jpg         # Slide 3: Centrais Telefônicas PABX
-│   │   ├── carrossel 4.jpg         # Slide 4: Centrais de Alarme & Sensores
-│   │   ├── carrossel 5.jpg         # Slide 5: Motores de Portões de Alta Velocidade
-│   │   ├── carrossel 6.jpg         # Slide 6: Porteiros Eletrônicos & Vídeo
+│   │   ├── carrossel 4.jpg         # Slide 4: Porteiros Eletrônicos & Vídeo Porteiros
+│   │   ├── carrossel 5.jpg         # Slide 5: Centrais de Alarme & Sensores
+│   │   ├── carrossel 6.jpg         # Slide 6: Motores de Portões de Alta Velocidade
 │   │   ├── carrossel 7.jpeg        # Slide 7: Controle de Acesso & Biometria
 │   │   ├── pabx1.png               # Imagem Centrais PABX
 │   │   ├── alarme1.png             # Imagem Centrais de Alarme
